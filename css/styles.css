@@ -87,6 +87,7 @@ header{
 .student-about{
     margin:25px auto;
 }
+
 .student-about img{
     width:100%;
 }
@@ -95,11 +96,58 @@ header{
     margin:20px auto;
 }
 
+/* Footer */
+footer{
+    padding:25px;
+    text-align:center;
+}
+
 .footer-nav ul{
     display:none;
 }
 
+.footer-wrapper{
+    width:100%;
+}
+
+.footer-wrapper p{
+    display: inline-block;
+}
+
+.footer-wrapper p:first-child{
+    float:left;
+    left:0;
+}
+
+.footer-wrapper p:last-of-type{
+    float:right;
+    right:0;
+}
+
+/* 
+    Clearfix for Fixing the Collapsed
+    Container Issue Caused by Floats
+*/
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
 /* Main Content */
 
+/* Contact */
+.contact{
+    padding:25px;
+    border-bottom:1px solid #c0bfbff5;
+    text-align:center;
+    margin-top:40px;
+}
 
+.contact h2{
+    margin:25px auto;
+}
 
+.contact p{
+    margin:15px auto;
+}
