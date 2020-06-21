@@ -51,6 +51,7 @@ header{
 .header-wrapper{
     margin:auto;
 }
+
 .student-name,
 .main-nav,
 .student-about{
@@ -61,6 +62,7 @@ header{
     margin:20px auto 40px;
     width:100%;
 }
+
 .main-nav ul,
 .footer-nav ul{
     list-style-type:none;
@@ -76,9 +78,11 @@ header{
     padding:25px;
     margin:5px auto;
 }
+
 .main-nav a{
     display:block;
 }
+
 .main-nav a:hover{
     text-decoration:none;
 }
@@ -135,6 +139,25 @@ footer{
 }
 
 /* Main Content */
+
+.portfolio h2{
+    margin:50px auto;
+}
+
+.project-info{
+    margin:40px auto;
+    text-align:center;
+}
+
+.project-name{
+ 
+    margin:10px;
+}
+.project-image{
+    display:block;
+    width:100%;
+    height:auto;
+}
 
 /* Contact */
 .contact{
