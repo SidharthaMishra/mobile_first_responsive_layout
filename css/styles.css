@@ -218,7 +218,16 @@ footer a:hover{
 
 @media (min-width: 768px) {
     /* Header */
+    .main-nav ul {
+        display: flex;
+        justify-content: center;
+        
+    }
 
+    .main-nav li {
+        margin: 5px;
+        width: 120px;
+    }
 
     /* Student About */
     .student-about {
@@ -227,7 +236,7 @@ footer a:hover{
         justify-content: center;
     }
 
-    .image-wrapper{
+    .image-wrapper {
         width: 40%;
     }
     .student-about p {
