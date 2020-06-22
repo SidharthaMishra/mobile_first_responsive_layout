@@ -88,12 +88,14 @@ header {
     padding: 10px 25px;
     color: #fff;
     border: 5px solid transparent;
-    transition: border 0.3s;
+    transition: all 0.3s;
 }
 
 .main-nav a:hover {
     text-decoration: none;
     border: 5px solid #00909e;
+    background-color:#fff;
+    color:#27496d;
 }
 
 /* Student About */
@@ -135,6 +137,10 @@ footer {
 .footer-inline:last-of-type{
     float: right;
     text-transform: uppercase;
+}
+
+footer a:hover{
+    color:#00909e;
 }
 
 /* 
