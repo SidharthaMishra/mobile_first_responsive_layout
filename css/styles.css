@@ -7,12 +7,12 @@
 
 body {
     width: 100%;
-    max-width:1150px;
+    max-width: 1150px;
     margin: auto;
     padding: 15px;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
-    line-height:1.5;
+    line-height: 1.5;
 }
 
 h1,
@@ -27,11 +27,12 @@ h2 {
     color: #142850;
 }
 
-h2{
+h2 {
     text-transform: uppercase;
 }
-h3{
-    color:#27496d;
+
+h3 {
+    color: #27496d;
 }
 
 a {
@@ -44,13 +45,13 @@ a:hover {
     text-decoration: underline;
 }
 
-p{
-    font-weight:lighter;
+p {
+    font-weight: lighter;
 }
 
 /* Header, Main, and Footer */
 header,
-footer{
+footer {
     background-color: #f2f2f2;
 }
 
@@ -89,7 +90,7 @@ header {
 .main-nav li {
     background-color: #27496d;
     display: block;
-    margin: 5px auto; 
+    margin: 5px auto;
 }
 
 .main-nav a {
@@ -103,8 +104,8 @@ header {
 .main-nav a:hover {
     text-decoration: none;
     border: 5px solid #00909e;
-    background-color:#fff;
-    color:#27496d;
+    background-color: #fff;
+    color: #27496d;
 }
 
 /* Student About */
@@ -147,11 +148,11 @@ footer {
 
 .footer-inline,
 .footer-nav {
-    font-weight:  bold;
+    font-weight: bold;
 }
 
-footer a:hover{
-    color:#00909e;
+footer a:hover {
+    color: #00909e;
 }
 
 /* 
@@ -213,23 +214,24 @@ footer a:hover{
     max-width: 768px;
 }
 
-.skills-wrapper{
-    display:flex;
-    justify-content:space-around;
-}
-.skills h2{
-    margin:20px auto;
+.skills-wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 
-.skills-list{
-    padding:10px;
-    margin:10px;
+.skills h2 {
+    margin: 20px auto;
 }
 
-.skills-list li{
-    text-align:left;
-    margin-left:5px;
-    font-weight:lighter;
+.skills-list {
+    padding: 10px;
+    margin: 10px;
+}
+
+.skills-list li {
+    text-align: left;
+    margin-left: 5px;
+    font-weight: lighter;
 }
 
 /* Contact */
@@ -251,18 +253,18 @@ footer a:hover{
 /*----------------*/
 
 @media (min-width: 768px) {
-    
+
     /* Header and Footer */
-   .student-blurb,
-   .contact{
-       font-size:1.3em;
-   }
+    .student-blurb,
+    .contact {
+        font-size: 1.3em;
+    }
 
     /* Header */
     .main-nav ul {
         display: flex;
         justify-content: center;
-        text-align:center;
+        text-align: center;
     }
 
     .main-nav li {
@@ -282,7 +284,7 @@ footer a:hover{
     }
 
     .profile-image {
-        margin-top:30px;
+        margin-top: 30px;
     }
 
     .student-blurb {
@@ -319,8 +321,8 @@ footer a:hover{
     }
 
     /* Skills */
-    .skills li{
-        font-size:1.15em;
+    .skills li {
+        font-size: 1.15em;
     }
 
     /* Footer */
@@ -339,7 +341,7 @@ footer a:hover{
         padding: 0 0 0 25px;
     }
 
-    .footer-inline p:first-of-type{
+    .footer-inline p:first-of-type {
         margin: 20px;
     }
 
@@ -350,39 +352,40 @@ footer a:hover{
 }
 
 @media (min-width: 1024px) {
-    body{
-        font-size:1.15em;
+    body {
+        font-size: 1.15em;
     }
+
     /* Header */
-    .student-blurb{
+    .student-blurb {
         padding-right: 30px;
     }
 
-    .nav-wrapper{
-        display:flex;
-        justify-content:space-around;
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-around;
     }
 
-    .student-name{
-        text-align:left;
-        align-self:center;
-        padding-bottom:25px;
-    }
-    
-    .main-nav ul{
-        justify-content:flex-end;
+    .student-name {
+        text-align: left;
+        align-self: center;
+        padding-bottom: 25px;
     }
 
-    .main-nav li{
-        width:144px;
-    } 
+    .main-nav ul {
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        width: 144px;
+    }
 
     .student-about {
-        margin-top:0;
+        margin-top: 0;
     }
 
     .project-info {
-        width:33.3%;
+        width: 33.3%;
     }
 
     .project-info:nth-of-type(even) {
