@@ -246,6 +246,10 @@ footer a:hover{
         width: 40%;
     }
 
+    .profile-image {
+        margin-top:30px;
+    }
+
     .student-about p {
         width: 60%;
         padding: 10px;
