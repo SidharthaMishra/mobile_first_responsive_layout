@@ -347,8 +347,8 @@ footer a:hover{
 }
 
 @media (min-width: 1024px) {
-    body {
-        font-size: 1.3em;
+    body{
+        font-size:1.15em;
     }
     /* Header */
     .student-blurb{
@@ -370,10 +370,9 @@ footer a:hover{
         justify-content:flex-end;
     }
 
-    /* Fix nav-links text alignment */
     .main-nav li{
-        width:auto;
-    }
+        width:144px;
+    } 
 
     .student-about {
         margin-top:0;
