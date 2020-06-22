@@ -107,8 +107,9 @@ header {
 
 /* Footer */
 footer {
-    padding: 25px;
+    padding: 10px 20px 25px;
     text-align: center;
+    font-weight:lighter;
 }
 
 .footer-nav ul {
@@ -117,20 +118,20 @@ footer {
 
 .footer-wrapper {
     width: 100%;
+    padding: 10px;
 }
 
-.footer-wrapper p {
+.footer-inline{
     display: inline-block;
 }
 
-.footer-wrapper p:first-child {
-    float: left;
-    left: 0;
+.footer-inline{
+    float:left;
 }
 
-.footer-wrapper p:last-of-type {
+.footer-inline:last-of-type{
     float: right;
-    right: 0;
+    text-transform: uppercase;
 }
 
 /* 
@@ -155,15 +156,15 @@ footer {
 }
 
 .project-info a {
-    text-decoration:none;
-    font-weight:normal;
-    display:block;
-    border:2px solid transparent;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    border: 2px solid transparent;
 }
 
 .project-info a:hover {
-    text-decoration:none;
-    border:2px solid #00909e;
+    text-decoration: none;
+    border: 2px solid #00909e;
 }
 
 .project-image {
@@ -177,19 +178,18 @@ footer {
 }
 
 .project-desc {
-    margin-bottom:15px;
+    margin-bottom: 15px;
+    font-weight:lighter;
 }
 
 .project-desc {
-    margin-left:25px;
-    margin-right:25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 /* Contact */
 .contact {
-    padding: 25px;
-    border-bottom: 1px solid #c0bfbff5;
     text-align: center;
-    margin-top: 40px;
+    margin: 60px auto;
 }
 
 .contact h2 {
@@ -197,5 +197,5 @@ footer {
 }
 
 .contact p {
-    margin: 15px auto;
+    margin: 15px;
 }
