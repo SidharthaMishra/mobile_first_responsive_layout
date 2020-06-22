@@ -386,4 +386,9 @@ footer a:hover{
         float: left;
     }
 
+    /* Contact */
+    .contact-blurb {
+        padding: 0 150px 25px;
+    }
+
 }
