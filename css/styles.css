@@ -81,7 +81,7 @@ header {
 
 .main-nav a {
     display: block;
-    padding: 25px;
+    padding: 10px 25px;
     color: #fff;
     border: 5px solid transparent;
     transition: border 0.3s;
