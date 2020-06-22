@@ -204,29 +204,30 @@ footer a:hover{
 }
 
 
-   /* Skills */
-    .skills {
-        margin: 0 auto 40px;
-    }
+/* Skills */
+.skills {
+    margin: 0 auto 40px;
+    max-width: 768px;
+}
 
-    .skills-wrapper{
-        display:flex;
-        justify-content:space-around;
-    }
-    .skills h2{
-        margin:20px auto;
-    }
+.skills-wrapper{
+    display:flex;
+    justify-content:space-around;
+}
+.skills h2{
+    margin:20px auto;
+}
 
-    .skills-list{
-        padding:10px;
-        margin:10px;
-    }
+.skills-list{
+    padding:10px;
+    margin:10px;
+}
 
-    .skills-list li{
-        text-align:left;
-        margin-left:5px;
-        font-weight:lighter;
-    }
+.skills-list li{
+    text-align:left;
+    margin-left:5px;
+    font-weight:lighter;
+}
 
 /* Contact */
 .contact {
@@ -247,6 +248,7 @@ footer a:hover{
 /*----------------*/
 
 @media (min-width: 768px) {
+    
     /* Header and Footer */
    .student-blurb,
    .contact{
@@ -257,6 +259,7 @@ footer a:hover{
     .main-nav ul {
         display: flex;
         justify-content: center;
+        text-align:center;
     }
 
     .main-nav li {
@@ -312,6 +315,11 @@ footer a:hover{
         float: right;
     }
 
+    /* Skills */
+    .skills li{
+        font-size:1.15em;
+    }
+
     /* Footer */
     .footer-nav {
         margin: 20px;
@@ -339,7 +347,9 @@ footer a:hover{
 }
 
 @media (min-width: 1024px) {
-
+    body {
+        font-size: 1.3em;
+    }
     /* Header */
     .student-blurb{
         padding-right: 30px;
@@ -360,13 +370,13 @@ footer a:hover{
         justify-content:flex-end;
     }
 
-    .student-about {
-        margin-top:0;
+    /* Fix nav-links text alignment */
+    .main-nav li{
+        width:auto;
     }
 
-    /* Main - Portfolio */
-    .projects-wrapper{
-        margin:auto;
+    .student-about {
+        margin-top:0;
     }
 
     .project-info {
