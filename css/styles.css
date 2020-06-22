@@ -216,34 +216,56 @@ footer a:hover{
 /* Media Queries */
 /*----------------*/
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
+    /* Header */
+
+
+    /* Student About */
+    .student-about {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .image-wrapper{
+        width: 40%;
+    }
+    .student-about p {
+        width: 60%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Portfolio */
     .projects-wrapper {
-        margin:auto;
-        text-align:center;
-        padding:20px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
     }
 
     .portfolio {
-        margin:50px auto;
+        margin: 50px auto;
     }
 
     .portfolio h2 {
-        margin:20px auto;
+        margin: 20px auto;
     }
 
     .project-info {
-        width:49%;
-        height:350px;
-        max-height:375px;
-        float:left;
-        margin:20px auto;
+        width: 49%;
+        height: 350px;
+        max-height: 375px;
+        float: left;
+        margin: 20px auto;
     }
 
     .project-info:nth-of-type(even) {
-        float:right;
+        float: right;
     }
+
+    /* Footer */
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
 
 }
