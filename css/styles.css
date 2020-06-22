@@ -27,6 +27,9 @@ h2 {
     color: #142850;
 }
 
+h2{
+    text-transform: uppercase;
+}
 h3{
     color:#27496d;
 }
