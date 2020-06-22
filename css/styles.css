@@ -46,8 +46,7 @@ p{
 
 /* Header and Footer */
 header,
-footer,
-.contact {
+footer{
     background-color: #f2f2f2;
 }
 
@@ -130,17 +129,19 @@ footer {
     padding: 10px;
 }
 
-.footer-inline{
-    display: inline-block;
+.footer-inline {
+    float: left;
+    margin-top: 20px;
 }
 
-.footer-inline{
-    float:left;
-}
-
-.footer-inline:last-of-type{
+.footer-inline:last-of-type {
     float: right;
     text-transform: uppercase;
+}
+
+.footer-inline,
+.footer-nav {
+    font-weight:  bold;
 }
 
 footer a:hover{
@@ -217,11 +218,16 @@ footer a:hover{
 /*----------------*/
 
 @media (min-width: 768px) {
+    /* Header and Footer */
+   .student-blurb,
+   .contact{
+       font-size:1.3em;
+   }
+
     /* Header */
     .main-nav ul {
         display: flex;
         justify-content: center;
-        
     }
 
     .main-nav li {
@@ -239,6 +245,7 @@ footer a:hover{
     .image-wrapper {
         width: 40%;
     }
+
     .student-about p {
         width: 60%;
         padding: 10px;
@@ -273,6 +280,29 @@ footer a:hover{
     }
 
     /* Footer */
+    .footer-nav {
+        margin: 20px;
+        margin-right: 0;
+    }
+
+    .footer-nav ul {
+        display: inline-block;
+        float: right;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        padding: 0 0 0 25px;
+    }
+
+    .footer-inline p:first-of-type{
+        margin: 20px;
+    }
+
+    .footer-inline:last-of-type {
+        display: none;
+    }
+
 }
 
 @media (min-width: 1024px) {
