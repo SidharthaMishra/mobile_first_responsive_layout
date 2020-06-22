@@ -211,3 +211,37 @@ footer a:hover{
 .contact p {
     margin: 15px;
 }
+
+/*----------------*/
+/* Media Queries */
+/*----------------*/
+
+@media (min-width:768px){
+    .projects-wrapper {
+        margin:auto;
+        text-align:center;
+        padding:20px;
+    }
+
+    .portfolio{
+        margin:50px auto;
+    }
+    .portfolio h2{
+        margin:20px auto;
+    }
+
+    .project-info{
+        width:49%;
+        height:350px;
+        max-height:375px;
+        float:left;
+        margin:20px auto;
+    }
+    .project-info:nth-of-type(even){
+        float:right;
+    }
+}
+
+@media (min-width:1024px){
+
+}
