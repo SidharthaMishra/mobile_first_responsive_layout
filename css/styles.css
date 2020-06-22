@@ -49,37 +49,37 @@ header {
     margin-bottom: 40px;
 }
 
-.header-wrapper{
+.header-wrapper {
     margin: auto;
 }
 
 .student-name,
 .main-nav,
-.student-about{
+.student-about {
     width: 100%;
 }
 
-.main-nav{
+.main-nav {
     margin: 20px auto 40px;
     width: 100%;
 }
 
 .main-nav ul,
-.footer-nav ul{
+.footer-nav ul {
     list-style-type: none;
 }
 
-.main-nav ul{
+.main-nav ul {
     text-align: center;
 }
 
-.main-nav li{
+.main-nav li {
     background-color: #27496d;
     display: block;
     margin: 5px auto; 
 }
 
-.main-nav a{
+.main-nav a {
     display: block;
     padding: 25px;
     color: #fff;
@@ -87,48 +87,48 @@ header {
     transition: border 0.3s;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
     text-decoration: none;
     border: 5px solid #00909e;
 }
 
 /* Student About */
-.student-about{
+.student-about {
     margin: 25px auto;
 }
 
-.student-about img{
+.student-about img {
     width: 100%;
 }
 
-.student-about p{
+.student-about p {
     margin: 20px auto;
 }
 
 /* Footer */
-footer{
+footer {
     padding: 25px;
     text-align: center;
 }
 
-.footer-nav ul{
+.footer-nav ul {
     display: none;
 }
 
-.footer-wrapper{
+.footer-wrapper {
     width: 100%;
 }
 
-.footer-wrapper p{
+.footer-wrapper p {
     display: inline-block;
 }
 
-.footer-wrapper p:first-child{
+.footer-wrapper p:first-child {
     float: left;
     left: 0;
 }
 
-.footer-wrapper p:last-of-type{
+.footer-wrapper p:last-of-type {
     float: right;
     right: 0;
 }
@@ -137,7 +137,7 @@ footer{
     Clearfix for Fixing the Collapsed
     Container Issue Caused by Floats
 */
-.clearfix:after{
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
@@ -145,36 +145,52 @@ footer{
 
 /* Main Content */
 
-.portfolio h2{
+.portfolio h2 {
     margin: 50px auto;
 }
 
-.project-info{
+.project-info {
     margin: 40px auto;
     text-align: center;
 }
 
-.project-name{
-    margin: 10px;
+.project-info a {
+    text-decoration:none;
+    font-weight:normal;
+    display:block;
+    border:2px solid transparent;
 }
-.project-image{
+
+.project-info a:hover {
+    text-decoration:none;
+    border:2px solid #00909e;
+}
+
+.project-image {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.project-name {
+    margin: 10px;
+}
+
+.project-desc {
+    margin-bottom:15px;
+}
 /* Contact */
-.contact{
+.contact {
     padding: 25px;
     border-bottom: 1px solid #c0bfbff5;
     text-align: center;
     margin-top: 40px;
 }
 
-.contact h2{
+.contact h2 {
     margin: 25px auto;
 }
 
-.contact p{
+.contact p {
     margin: 15px auto;
 }
