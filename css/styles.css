@@ -179,6 +179,11 @@ footer {
 .project-desc {
     margin-bottom:15px;
 }
+
+.project-desc {
+    margin-left:25px;
+    margin-right:25px;
+}
 /* Contact */
 .contact {
     padding: 25px;
